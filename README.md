@@ -19,4 +19,4 @@
 
 ## Картинка
 
-! [Логотип ПНИПУ](https://ru.wikipedia.org/wiki/Файл:Логотип+ПНИПУfile.png)
+! [Логотип ПНИПУ]([https://ru.wikipedia.org/wiki/Файл:Логотип+ПНИПУfile.png](https://upload.wikimedia.org/wikipedia/commons/5/54/Логотип%2BПНИПУfile.png?utm_source=ru.wikipedia.org&utm_campaign=index&utm_content=original))
