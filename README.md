@@ -19,4 +19,4 @@
 
 ## Картинка
 
-![Логотип ПНИПУ]([https://upload.wikimedia.org/wikipedia/ru/thumb/8/8d/...](https://upload.wikimedia.org/wikipedia/ru/thumb/8/8d/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%2B%D0%9F%D0%9D%D0%98%D0%9F%D0%A3file.png/200px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%2B%D0%9F%D0%9D%D0%98%D0%9F%D0%A3file.png))
+![Логотип ПНИПУ](https://upload.wikimedia.org/wikipedia/commons/5/54/Логотип%2BПНИПУfile.png)
