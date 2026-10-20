@@ -1,1 +1,57 @@
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
 
+void calcFloat() {
+    float a = 1000.0f;
+    float b = 0.001f;
+    
+    float a_minus_b = a - b;
+    float step1 = a_minus_b * a_minus_b; // (a-b)^2
+    float a_sq = a * a;                  // a^2
+    float two_ab = 2 * a * b;            // 2ab
+    float step2 = a_sq - two_ab;         // (a^2 - 2ab)
+    float b_sq = b * b;                  // b^2
+    
+    float numerator = step1 - step2;
+    float result = numerator / b_sq;
+    
+    cout << "--- Результаты для типа FLOAT ---" << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+    cout << "Результат: " << setprecision(6) << result << endl;
+    cout << "Промежуточные значения:" << endl;
+    cout << "(a-b)^2 = " << step1 << endl;
+    cout << "(a^2-2ab) = " << step2 << endl;
+    cout << "b^2 = " << b_sq << endl;
+}
+
+void calcDouble() {
+    double a = 1000.0;
+    double b = 0.001;
+    
+    double a_minus_b = a - b;
+    double step1 = a_minus_b * a_minus_b; // (a-b)^2
+    double a_sq = a * a;                  // a^2
+    double two_ab = 2 * a * b;            // 2ab
+    double step2 = a_sq - two_ab;         // (a^2 - 2ab)
+    double b_sq = b * b;                  // b^2
+    
+    double numerator = step1 - step2;
+    double result = numerator / b_sq;
+    
+    cout << "\n--- Результаты для типа DOUBLE ---" << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+    cout << "Результат: " << setprecision(6) << result << endl;
+    cout << "Промежуточные значения:" << endl;
+    cout << "(a-b)^2 = " << step1 << endl;
+    cout << "(a^2-2ab) = " << step2 << endl;
+    cout << "b^2 = " << b_sq << endl;
+}
+
+int main() {
+    setlocale(LC_ALL, "Russian");
+    calcFloat();
+    calcDouble();
+    return 0;
+}
